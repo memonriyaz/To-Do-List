@@ -1,13 +1,13 @@
-📝 To-Do List <br> <hr>
+<h1>📝 To-Do List </h1> <br> <hr>
 A simple and stylish To-Do List application built using HTML, CSS, and JavaScript. It allows users to add, delete, and manage their daily tasks efficiently. <br>
 
-🚀 Features  <hr>
+<h2>🚀 Features </h2> <hr>
 ✅ Add new tasks
 ❌ Delete tasks
 🎨 Dark-themed UI
 📌 Tasks remain visually marked when completed
 💾 Saves tasks using Local Storage 
 <br>
-📷 Screenshot
+<h2>📷 Screenshot</h2>
 
-![image](https://github.com/user-attachments/assets/59fe1bed-4bf8-4af5-8b6e-a7795c5fad3d)
+![image](https://github.com/user-attachments/assets/64b7ba99-6d70-4dd5-9ffc-ac04e8d601cb)
