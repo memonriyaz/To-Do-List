@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <style>
+      span {
+        margin: 10px;
+      }
+      li.completed {
+        text-decoration: line-through;
+        color: #e01b1b;
+        opacity: 0.5;
+      }
+      li {
+        background: #292d46;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border-radius: 5px;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      #deleteTask {
+        background: #e01b1b;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        margin: 10px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body class="bg-slate-700">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <div class="flex justify-center items-center h-screen">
+      <div class="bg-gray-900 rounded-lg p-4">
+        <h1 class="text-2xl text-white text-center font-bold">To-Do List</h1>
+        <div>
+          <input
+            type="text"
+            name="taskInput"
+            class="text-white ring-2 ring-gray-500 rounded-md p-2 my-2 outline-none mr-2"
+            placeholder="Enter your task"
+            id="taskInput"
+          />
+          <button
+            class="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded"
+            id="addtask"
+          >
+            Add Task
+          </button>
+        </div>
+
+        <ul class="todo type-none p-0 pt-2" id="todo-items"></ul>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
